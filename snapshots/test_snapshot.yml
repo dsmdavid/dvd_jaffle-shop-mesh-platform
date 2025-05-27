@@ -1,5 +1,5 @@
 snapshots:
-  - name: string
+  - name: snapshot_orders
     relation: ref('stg_orders')
     description:  snapshots
     config:
