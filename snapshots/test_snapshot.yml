@@ -1,0 +1,9 @@
+snapshots:
+  - name: string
+    relation: ref('stg_orders')
+    description:  snapshots
+    config:
+      schema: snapshots_adrien
+      strategy: timestamp 
+      unique_key: order_id
+      updated_at: ordered_at
